@@ -1,0 +1,58 @@
+[2019-12-11 14:10:54 *3709.7]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-12-11 14:10:54 *3708.6]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-12-11 14:10:54 *3707.5]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-12-11 14:10:54 *3706.4]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-12-11 14:10:54 *3705.3]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-12-11 14:10:54 *3704.2]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-12-11 14:10:54 *3703.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-12-11 14:10:54 *3702.0]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-12-11 14:10:54 $3700.0]	WARNING	swSignal_callback (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-12-11 14:10:54 $3700.0]	WARNING	swManager_check_exit_status: worker#8[pid=3710] abnormal exit, status=0, signal=1
+[2019-12-11 14:10:54 $3700.0]	WARNING	swManager_check_exit_status: worker#9[pid=3711] abnormal exit, status=0, signal=1
+[2019-12-11 14:10:54 $3700.0]	WARNING	swManager_check_exit_status: worker#10[pid=3712] abnormal exit, status=0, signal=1
+[2019-12-11 14:10:54 $3700.0]	WARNING	swManager_check_exit_status: worker#11[pid=3713] abnormal exit, status=0, signal=1
+[2019-12-11 14:10:54 #3699.1]	WARNING	swSignalfd_onSignal (ERRNO 707): Unable to find callback function for signal Hangup: 1
+[2019-12-11 20:39:54 *9232.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\HttpController\Api\Base\Index, because the name is already in use in /www/wwwroot/ew/App/HttpController/Api/Index.php on line 25
+[2019-12-11 20:39:54 $9230.0]	WARNING	swManager_check_exit_status: worker#0[pid=9232] abnormal exit, status=255, signal=0
+[2019-12-11 20:39:55 *9244.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\HttpController\Api\Base\Index, because the name is already in use in /www/wwwroot/ew/App/HttpController/Api/Index.php on line 25
+[2019-12-11 20:39:55 $9230.0]	WARNING	swManager_check_exit_status: worker#0[pid=9244] abnormal exit, status=255, signal=0
+[2019-12-11 20:39:55 *9245.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\HttpController\Api\Base\Index, because the name is already in use in /www/wwwroot/ew/App/HttpController/Api/Index.php on line 25
+[2019-12-11 20:39:55 $9230.0]	WARNING	swManager_check_exit_status: worker#0[pid=9245] abnormal exit, status=255, signal=0
+[2019-12-11 20:39:55 *9246.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\HttpController\Api\Base\Index, because the name is already in use in /www/wwwroot/ew/App/HttpController/Api/Index.php on line 25
+[2019-12-11 20:39:55 $9230.0]	WARNING	swManager_check_exit_status: worker#0[pid=9246] abnormal exit, status=255, signal=0
+[2019-12-11 20:39:56 *9247.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\HttpController\Api\Base\Index, because the name is already in use in /www/wwwroot/ew/App/HttpController/Api/Index.php on line 25
+[2019-12-11 20:39:56 $9230.0]	WARNING	swManager_check_exit_status: worker#0[pid=9247] abnormal exit, status=255, signal=0
+[2019-12-11 20:39:56 *9248.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\HttpController\Api\Base\Index, because the name is already in use in /www/wwwroot/ew/App/HttpController/Api/Index.php on line 25
+[2019-12-11 20:39:56 $9230.0]	WARNING	swManager_check_exit_status: worker#0[pid=9248] abnormal exit, status=255, signal=0
+[2019-12-11 20:39:56 *9249.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\HttpController\Api\Base\Index, because the name is already in use in /www/wwwroot/ew/App/HttpController/Api/Index.php on line 25
+[2019-12-11 20:39:56 $9230.0]	WARNING	swManager_check_exit_status: worker#0[pid=9249] abnormal exit, status=255, signal=0
+[2019-12-11 20:39:56 *9250.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\HttpController\Api\Base\Index, because the name is already in use in /www/wwwroot/ew/App/HttpController/Api/Index.php on line 25
+[2019-12-11 20:39:56 $9230.0]	WARNING	swManager_check_exit_status: worker#0[pid=9250] abnormal exit, status=255, signal=0
+[2019-12-11 20:39:56 *9251.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\HttpController\Api\Base\Index, because the name is already in use in /www/wwwroot/ew/App/HttpController/Api/Index.php on line 25
+[2019-12-11 20:39:56 $9230.0]	WARNING	swManager_check_exit_status: worker#0[pid=9251] abnormal exit, status=255, signal=0
+[2019-12-11 20:39:56 *9252.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Cannot declare class App\HttpController\Api\Base\Index, because the name is already in use in /www/wwwroot/ew/App/HttpController/Api/Index.php on line 25
+[2019-12-11 20:39:56 $9230.0]	WARNING	swManager_check_exit_status: worker#0[pid=9252] abnormal exit, status=255, signal=0
+[2019-12-11 21:14:20 *9887.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exception\Exception: SQLSTATE[HY000] [2002] Connection reset by peer or Transport endpoint is not connected in /www/wwwroot/ew/vendor/easyswoole/mysqli/src/Client.php:69
+Stack trace:
+#0 /www/wwwroot/ew/App/HttpController/Api/Index.php(40): EasySwoole\Mysqli\Client->execBuilder()
+#1 {main}
+  thrown in /www/wwwroot/ew/vendor/easyswoole/mysqli/src/Client.php on line 69
+[2019-12-11 21:14:20 $9885.0]	WARNING	swManager_check_exit_status: worker#0[pid=9887] abnormal exit, status=255, signal=0
+[2019-12-11 21:14:24 *9899.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exception\Exception: SQLSTATE[HY000] [2002] Connection reset by peer or Transport endpoint is not connected in /www/wwwroot/ew/vendor/easyswoole/mysqli/src/Client.php:69
+Stack trace:
+#0 /www/wwwroot/ew/App/HttpController/Api/Index.php(40): EasySwoole\Mysqli\Client->execBuilder()
+#1 {main}
+  thrown in /www/wwwroot/ew/vendor/easyswoole/mysqli/src/Client.php on line 69
+[2019-12-11 21:14:24 $9885.0]	WARNING	swManager_check_exit_status: worker#0[pid=9899] abnormal exit, status=255, signal=0
+[2019-12-11 21:14:32 *9900.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exception\Exception: SQLSTATE[HY000] [2002] Connection reset by peer or Transport endpoint is not connected in /www/wwwroot/ew/vendor/easyswoole/mysqli/src/Client.php:69
+Stack trace:
+#0 /www/wwwroot/ew/App/HttpController/Api/Index.php(40): EasySwoole\Mysqli\Client->execBuilder()
+#1 {main}
+  thrown in /www/wwwroot/ew/vendor/easyswoole/mysqli/src/Client.php on line 69
+[2019-12-11 21:14:32 $9885.0]	WARNING	swManager_check_exit_status: worker#0[pid=9900] abnormal exit, status=255, signal=0
+[2019-12-11 21:16:31 *9972.0]	ERROR	php_swoole_server_rshutdown (ERRNO 503): Fatal error: Uncaught EasySwoole\Mysqli\Exception\Exception: SQLSTATE[HY000] [2002] Connection reset by peer or Transport endpoint is not connected in /www/wwwroot/ew/vendor/easyswoole/mysqli/src/Client.php:69
+Stack trace:
+#0 /www/wwwroot/ew/App/HttpController/Api/Index.php(40): EasySwoole\Mysqli\Client->execBuilder()
+#1 {main}
+  thrown in /www/wwwroot/ew/vendor/easyswoole/mysqli/src/Client.php on line 69
+[2019-12-11 21:16:31 $9970.0]	WARNING	swManager_check_exit_status: worker#0[pid=9972] abnormal exit, status=255, signal=0
