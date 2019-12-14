@@ -65,6 +65,10 @@ class Index extends Base
         return $this->writeJson(200,'OK',$res);
     }
 
+    public function pub(){
+        $params = $this->request()->getRequestParam();
+        DI::getInstance()->get('REDIS')->rpush('imooc_list_test',$params['f']);
+    }
 
 
 }

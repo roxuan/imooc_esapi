@@ -34,4 +34,20 @@ class Redis{
         }
         return $this->redis->get($key);
     }
+
+    public function lPop($key)
+    {
+        if (empty($key)){
+            return '';
+        }
+        return $this->redis->lPop($key);
+    }
+
+    public function rpush($key,$value)
+    {
+        if (empty($key)){
+            return '';
+        }
+        return $this->redis->rpush($key,$value);
+    }
 }

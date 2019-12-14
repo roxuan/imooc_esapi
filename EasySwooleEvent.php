@@ -16,6 +16,9 @@ use App\Lib\Redis\Redis;
 use EasySwoole\Utility\File;
 use EasySwoole\EasySwoole\Config;
 
+use EasySwoole\EasySwoole\ServerManager;
+use App\Lib\Process\ConsumerTest;
+
 class EasySwooleEvent implements Event
 {
 
@@ -45,6 +48,11 @@ class EasySwooleEvent implements Event
 //
 //        DbManager::getInstance()->addConnection(new Connection($config));
         DI::getInstance()->set('REDIS', Redis::getInstance());
+
+        $allNum = 3;
+        for ($i = 0 ;$i < $allNum;$i++){
+            ServerManager::getInstance()->getSwooleServer()->addProcess((new ConsumerTest("consumer_{$i}"))->getProcess());
+        }
     }
 
     public static function onRequest(Request $request, Response $response): bool
