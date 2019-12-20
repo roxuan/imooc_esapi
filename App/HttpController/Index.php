@@ -27,6 +27,4 @@ class Index extends Controller
         }
         $this->response()->write(file_get_contents($file));
     }
-
-
 }
